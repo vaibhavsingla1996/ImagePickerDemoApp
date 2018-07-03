@@ -1,0 +1,84 @@
+PODS:
+  - Cache (4.2.0)
+  - Firebase/Core (5.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.1.0):
+    - FirebaseCore (= 5.0.2)
+  - Firebase/Database (5.1.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.1)
+  - Firebase/Storage (5.1.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.0)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.0.0):
+    - FirebaseCore (~> 5.0)
+  - FirebaseStorage (3.0.0):
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Gallery (2.0.6)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/NSData+zlib (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GTMSessionFetcher/Core (1.1.15)
+  - Hue (3.0.1)
+  - ImagePicker (3.0.0)
+  - Imaginary (3.0.3):
+    - Cache (~> 4.0)
+  - leveldb-library (1.20)
+  - Lightbox (2.1.2):
+    - Hue (~> 3.0)
+    - Imaginary (~> 3.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - Gallery
+  - ImagePicker
+  - Lightbox
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Cache: f28f8dd64b632155aabf9b3906b036a659048251
+  Firebase: e08fb0795f35707aeb1d8a715c731c45bdf6fd56
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: b81044df1044c0857a0737c6324678b72d4f7f00
+  FirebaseDatabase: 482bad9c2abd422bb2321194fb8c937e67426a89
+  FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  FirebaseStorage: 7ca4bb7b58a25fa647b04f524033fc7cb7eb272b
+  Gallery: 5489ae11d8010a3cc163030f6e92d618afbdf4df
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  Imaginary: 9b45836a5af881f452a86e0a1215772ae4712d00
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  Lightbox: 2dc267df8be2285bc7724cb11cbbf4aaaf59dced
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 92b97faafe75144a2cca4e04fa8b60e481a46791
+
+COCOAPODS: 1.4.0
